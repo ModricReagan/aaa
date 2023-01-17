@@ -75,14 +75,4 @@ outputdf = pd.DataFrame([outputdf], columns= shapdatadf.columns)
 p1 = postmodel.predict(outputdf)[0]
 p2 = postmodel.predict_proba(outputdf)
 
-
-placeholder6 = st.empty()
-with placeholder6.container():
-    f1 = st.columns(1)
-    with f1:
-        st.write('User input parameters below ⬇️')
-        st.write(outputdf)
-        st.write(f'Predicted class: {p1}')
-        st.write('Predicted class Probability')
-        st.write('0️⃣ means no POCD , 1️⃣ means POCD')
-        st.write(p2)  
+st.write(p2)  
