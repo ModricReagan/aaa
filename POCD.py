@@ -72,6 +72,8 @@ outputdf = pd.DataFrame([outputdf], columns= shapdatadf.columns)
 
 
 
+
+
 p1 = postmodel.predict(outputdf)[0]
 p2 = postmodel.predict_proba(outputdf)
 
