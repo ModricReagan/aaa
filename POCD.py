@@ -78,3 +78,5 @@ p1 = postmodel.predict(outputdf)[0]
 p2 = postmodel.predict_proba(outputdf)
 
 st.write(p2)  
+
+
