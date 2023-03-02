@@ -82,5 +82,5 @@ p2 = postmodel.predict_proba(outputdf)
 p3 = p2[:,1]*100
 
 st.write(p2)  
-st.write(f'Predicted class: {p3}')
+st.write(f'Predicted class: {p3*100}')
 st.write(p3)
