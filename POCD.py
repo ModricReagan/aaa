@@ -82,7 +82,5 @@ p2 = postmodel.predict_proba(outputdf)
 p3 = p2[:,1]*100
 
 st.write(p2)  
-st.write(f'Predicted class: {p3*100}')
-st.write(p3)
 st.write(f'The probability of hypoxemia during endscopies: {p3*100}')
 st.success(f'The probability of hypoxemia during endscopies: {p3*100}')
