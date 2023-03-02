@@ -83,4 +83,4 @@ p3 = p2[0]*100
 
 st.write(p2)  
 st.write(f'Predicted class: {p3}')
-
+st.write(p3)
