@@ -54,6 +54,7 @@ df = pd.read_csv('60岁3个月lasso.csv')
 
 
 
+
 shapdatadf =pd.read_excel(r'shapdatadf.xlsx')
 shapvaluedf =pd.read_excel(r'shapvaluedf.xlsx')
 
