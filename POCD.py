@@ -79,7 +79,7 @@ outputdf = pd.DataFrame([outputdf], columns= shapdatadf.columns)
 
 p1 = postmodel.predict(outputdf)[0]
 p2 = postmodel.predict_proba(outputdf)
-p3 = p2[0,:]*100
+p3 = p2[1,:]*100
 
 st.write(p2)  
 st.write(f'Predicted class: {p3}')
